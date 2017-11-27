@@ -9,7 +9,7 @@ export function handler (event, context, callback) {
     callback(null, {
         statusCode: 200,
         body: JSON.stringify({
-            fulfillmentText: 'Woohoo! Building Google Assistant actions with Netlify'
+            fulfillmentText: 'Woohoo! Yeps - This Google action is built with Netlify'
         })
     })
 }
